@@ -1,3 +1,23 @@
+body{
+  margin: 20px;
+}
+.logo_div{
+  float: left;
+}
+.logo{
+  margin:0px;
+}.logo2{
+  margin:0px;
+  float: right;
+  font-weight: unset;
+}
+.menu{
+  float:right;
+}
+.menu ul{
+  display:flex;
+  
+}
 .footer img{
   width:100%;
 }
