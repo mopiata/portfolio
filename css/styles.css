@@ -16,7 +16,9 @@ body{
 }
 .menu ul{
   display:flex;
-  
+}
+.menu ul li{
+  margin-left: 40px;
 }
 .footer img{
   width:100%;
