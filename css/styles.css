@@ -12,13 +12,16 @@ body{
   font-weight: unset;
 }
 .menu{
-  float:right;
+  float:left;
+  font-size: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 .menu ul{
   display:flex;
 }
 .menu ul li{
-  margin-left: 40px;
+  margin-left: 60px;
 }
 .footer img{
   width:100%;
