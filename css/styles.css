@@ -1,8 +1,10 @@
 body{
-  margin: 20px;
+  margin: 0px;
 }
 .logo_div{
   float: left;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .logo{
   margin:0px;
@@ -23,6 +25,9 @@ body{
 .menu ul li{
   margin-left: 60px;
 }
+.menu ul li a{
+  text-decoration: none;
+}
 .footer img{
   width:100%;
 }
@@ -31,4 +36,9 @@ body{
 }
 ul{
   list-style-type: none;
+}
+.footer{
+  text-align: center;
+  background-color:#aeff32;
+  margin: 0px;
 }
