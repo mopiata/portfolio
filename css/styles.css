@@ -37,11 +37,6 @@ body{
 ul{
   list-style-type: none;
 }
-.footer{
-  text-align: center;
-  background-color:#aeff32;
-  margin: 0px;
-}
 .col1{
   font-family: 'Satisfy', cursive;
   font-size: 28px;
@@ -53,6 +48,25 @@ ul{
 .col2{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
+}
+
+.projects{
+  text-align: center;
+}
+.projects h2{
+  font-family: 'Satisfy', cursive;
+  font-size: 4em;
+  color: #1c263c;
+  text-decoration-line: underline;
+}
+.proj_item div img{
+  height: 200px;
+  width: auto;
+}
+.footer{
+  text-align: center;
+  background-color:#aeff32;
+  margin: 0px;
 }
 
 @media screen and (min-width: 480px) {
@@ -71,6 +85,10 @@ ul{
     text-align: justify;
   }
   .menu ul{
-  display:flex;
+    display:flex;
+  }
+  .projects div{
+    display: flex;
+    flex-direction: column; 
   }
 }
