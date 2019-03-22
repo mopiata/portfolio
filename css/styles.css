@@ -19,9 +19,7 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
 }
-.menu ul{
-  display:flex;
-}
+
 .menu ul li{
   margin-left: 60px;
 }
@@ -41,4 +39,24 @@ ul{
   text-align: center;
   background-color:#aeff32;
   margin: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  .about{
+    margin-left: 30px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+  }   
+  .col1{
+    width:40%;
+  }
+  .col2{
+    width:60%;
+    margin-left: 5%;
+    text-align: justify;
+  }
+  .menu ul{
+  display:flex;
+  }
 }
