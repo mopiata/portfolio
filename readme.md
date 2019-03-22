@@ -15,5 +15,10 @@ VSCode for HTML and CSS scripting
 Author
 Margaret Opiata
 
+Contributors
+Samuel Ngigi (My instructor)
+
 License
 This project is licensed under the MIT License
+
+22nd March 2019.

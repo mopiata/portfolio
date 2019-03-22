@@ -13,7 +13,7 @@ body{
 }
 .logo{
   margin:0px;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Philosopher', sans-serif;
   font-size: 4em;
   color: #1c263c;
 }
@@ -33,7 +33,7 @@ body{
   font-weight: bold; 
 }
 .header{
-  
+  background-color: rgba(244, 208, 63, 0.1);
   margin-bottom: 20px;
 }
 .menu ul li{
@@ -92,6 +92,7 @@ ul{
   margin-left: auto;
   margin-right: auto;
   width:50%;
+  border-bottom: 2px solid #1c263c;
 }
 .proj_desc{
   font-size: 25px;
@@ -108,7 +109,6 @@ ul{
   margin: 0px;
   font-size: 20px;
   color: white;
-
 }
 .footer a{
   color: #aeff32;
@@ -128,6 +128,10 @@ ul{
     width:50%;
     margin-left: 5%;
     text-align: justify;
+  }
+  .menu{
+    float:right;
+    margin-right: 150px;
   }
   .menu ul{
     display:flex;
