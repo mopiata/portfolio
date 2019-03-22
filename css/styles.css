@@ -16,10 +16,10 @@ body{
 }
 .logo2{
   margin:0px;
-  float: right;
+  float: left;
   font-family: 'Satisfy', cursive;
   text-decoration-line: underline;
-  text-decoration-color: #aeff32;
+  text-decoration-color: #ff8000;
   font-size: 3em;
   color: #1c263c;
 }
@@ -27,17 +27,19 @@ body{
   float:left;
   font-size: 2em;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
+  font-weight: bold; 
 }
-
+.header{
+  
+  margin-bottom: 20px;
+}
 .menu ul li{
   margin-left: 60px;
-  text-decoration-line: underline;
-  text-decoration-color: #aeff32;
+  
 }
 .menu ul li a{
-  text-decoration-line: underline;
-  text-decoration-color: #aeff32;
+  text-decoration: none;
+  color: #1c263c;
 }
 .myphoto{
   width:50%;
@@ -61,10 +63,15 @@ ul{
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
 }
+.col2 h2{
+  text-decoration-line: underline;
+  text-decoration-color: #ff8000;
+}
 
 .projects{
   text-align: center;
   font-family: 'Satisfy', cursive;
+  background-color: rgba(255, 207, 117, 0.2);
 }
 .projects h2{
   font-size: 4em;
@@ -88,11 +95,13 @@ ul{
 }
 .footer{
   text-align: center;
-  background-color:#aeff32;
+  background-color: #1c263c;
   margin: 0px;
   font-size: 15px;
-  font-weight: bold;
-  color: #1c263c;
+  color: white;
+}
+.footer a{
+  color: #aeff32;
 }
 
 @media screen and (min-width: 480px) {
