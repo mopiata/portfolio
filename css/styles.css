@@ -9,11 +9,17 @@ body{
 .logo{
   margin:0px;
   font-family: 'Bree Serif', serif;
+  font-size: 4em;
+  color: #1c263c;
 }
 .logo2{
   margin:0px;
   float: right;
   font-family: 'Satisfy', cursive;
+  text-decoration-line: underline;
+  text-decoration-color: #aeff32;
+  font-size: 3em;
+  color: #1c263c;
 }
 .menu{
   float:left;
@@ -58,6 +64,7 @@ ul{
   font-size: 4em;
   color: #1c263c;
   text-decoration-line: underline;
+  
 }
 .proj_item div img{
   height: 200px;
