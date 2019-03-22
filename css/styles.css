@@ -43,8 +43,12 @@ ul{
   margin: 0px;
 }
 .col1{
-  font-family: 'Dancing Script', cursive;
-  font-size: 2em;
+  font-family: 'Satisfy', cursive;
+  font-size: 28px;
+  background-color: #aeff32;
+  color: #1c263c;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 480px) {
@@ -55,10 +59,10 @@ ul{
     margin-right: 20%;
   }   
   .col1{
-    width:40%;
+    width:45%;
   }
   .col2{
-    width:60%;
+    width:50%;
     margin-left: 5%;
     text-align: justify;
   }
