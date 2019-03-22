@@ -40,6 +40,12 @@ body{
   margin-left: 60px;
   
 }
+.menu ul li a:hover{
+  color:#F4D03F;
+  background-color: #1c263c;
+  padding:5px;
+  border-radius: 5px;
+}
 .menu ul li a{
   text-decoration: none;
   color: #1c263c;
@@ -100,8 +106,9 @@ ul{
   text-align: center;
   background-color: #1c263c;
   margin: 0px;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
+
 }
 .footer a{
   color: #aeff32;
