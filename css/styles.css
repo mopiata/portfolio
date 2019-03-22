@@ -8,16 +8,18 @@ body{
 }
 .logo{
   margin:0px;
-}.logo2{
+  font-family: 'Bree Serif', serif;
+}
+.logo2{
   margin:0px;
   float: right;
-  font-weight: unset;
+  font-family: 'Satisfy', cursive;
 }
 .menu{
   float:left;
   font-size: 2em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
 }
 
 .menu ul li{
@@ -39,6 +41,10 @@ ul{
   text-align: center;
   background-color:#aeff32;
   margin: 0px;
+}
+.col1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
 }
 
 @media screen and (min-width: 480px) {
